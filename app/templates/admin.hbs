@@ -1,1 +1,10 @@
-{{outlet}}
+
+<h2>Admin</h2>
+
+<ul>
+  {{#each model as |story|}}
+  <li>
+    {{story.title}}
+  </li>
+  {{/each}}
+</ul>
