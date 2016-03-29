@@ -4,7 +4,7 @@
 <ul>
   {{#each model as |story|}}
   <li>
-    {{story.title}}
+    {{story.title}}{{update-story story=model update="update"}}
   </li>
   {{/each}}
 </ul>
