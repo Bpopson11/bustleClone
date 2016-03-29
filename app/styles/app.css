@@ -1,3 +1,7 @@
 .scamper {
   font-family: 'Megrim', cursive;
 }
+
+.navbar-fixed-bottom {
+  margin-left: 25px;
+}
