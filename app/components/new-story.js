@@ -10,7 +10,7 @@ export default Ember.Component.extend({
         var params = {
           title: this.get('title'),
           content: this.get('content'),
-          image: this.get('image'),
+          img: this.get('img'),
           category: this.get('category'),
           author: this.get('author'),
         };

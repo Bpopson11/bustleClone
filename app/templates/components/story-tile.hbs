@@ -1,11 +1,9 @@
-<div class="row">
-  <div class="col-sm-6 col-md-4">
-    <div class="thumbnail">
-      <img src="{{ story.image }}" alt="{{ story.title }}">
-      <div class="caption">
-        <h3>{{ story.title }}</h3>
-        <button {{#link-to 'story'}} <a href="#" class="btn btn-default" role="button">Button</a></p>
-      </div>
+<div class="col-sm-6 col-md-4">
+  <div class="thumbnail">
+    <img src={{story.img}} alt={{story.title}}>
+    <div class="caption">
+      <h3>{{ story.title }}</h3>
+      {{#link-to 'story'}}Full Story{{/link-to}}
     </div>
   </div>
 </div>
