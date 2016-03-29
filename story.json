@@ -1,0 +1,26 @@
+{ "stories": [{
+    "title": "Birdie Sanders",
+    "content": "Bernie Sanders is a Disney Princess. The birds have spoken!",
+    "image": "http://d1udmfvw0p7cd2.cloudfront.net/wp-content/uploads/2016/03/f-sanders-a-20160327.jpg",
+    "category": "Politics",
+    "author": "Bri"
+  }, {
+    "title": "Season 3 of Daredevil confirmed!",
+    "content": "After another sucessful season, Netflix has decided to place an order for another 13 episode season. It is not set to begin filming until 2017.",
+    "image": "http://netflixlife.com/files/2015/07/Daredevil-12.jpg",
+    "category": "Entertainment",
+    "author": "Bri"
+  }, {
+    "title": "Title!!!",
+    "content": "Content here!!!!!",
+    "image": "https://i.ytimg.com/vi/tntOCGkgt98/maxresdefault.jpg",
+    "category": "Lifestyle",
+    "author": "Bri"
+  }, {
+    "title": "Dogs! Man's best friend?",
+    "content": "Yes, yes they really are.",
+    "image": "http://www.lovethispic.com/uploaded_images/53451-Cute-Dog.jpg",
+    "category": "Lifstyle",
+    "author": "Bri"
+  }]
+}

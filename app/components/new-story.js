@@ -9,7 +9,7 @@ export default Ember.Component.extend({
       save1() {
         var params = {
           title: this.get('title'),
-          body: this.get('body'),
+          content: this.get('content'),
           image: this.get('image'),
           category: this.get('category'),
           author: this.get('author'),
