@@ -1,0 +1,35 @@
+{{#if addNewStory}}
+<h1>New Story</h1>
+<div>
+ <form>
+   <div class="form-group">
+     <label for="title">Title</label>
+     {{input value=title id="title"}}
+   </div>
+
+   <div class="form-group">
+     <label for="body">Body</label>
+     {{input value=body id="body"}}
+   </div>
+
+   <div class="form-group">
+     <label for="image">Image URL</label>
+     {{input value=image id="image"}}
+   </div>
+
+   <div class="form-group">
+     <label for="category">Category</label>
+     {{input value=category id="category"}}
+   </div>
+
+   <div class="form-group">
+     <label for="author">Author</label>
+     {{input value=author id="author"}}
+   </div>
+
+   <button {{action 'save1'}}>Save</button>
+ </form>
+</div>
+{{else}}
+<button class= "btn btn-xs"{{action 'storyFormShow'}}>New Story</button>
+{{/if}}

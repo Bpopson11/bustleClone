@@ -9,6 +9,7 @@ Router.map(function() {
   this.route('news');
   this.route('about');
   this.route('admin');
+  this.route('story');
 });
 
 export default Router;
